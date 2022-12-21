@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+
+void main()
+{
+
+	/*Завдання 2. Користувач вводить з клавіатури 7 цілих
+	чисел.Напишіть програму, яка визначає максимальне з
+	цих 7 чисел(підказка — рішення має бути простим).*/
+
+    int a, b, c, d, e, f, g;
+    cout << "digit a" << endl;
+    cin >> a;
+    cout << "digit b" << endl;
+    cin >> b;
+    cout << "digit c" << endl;
+    cin >> c;
+    cout << "digit d " << endl;
+    cin >> d;
+    cout << "digit e" << endl;
+    cin >> e;
+    cout << "digit f" << endl;
+    cin >> f;
+    cout << "digit g " << endl;
+    cin >> g;
+
+    if (a < b)
+    {
+        a = b;
+    }
+    if (a < c)
+    {
+        a = c;
+    }
+    if (a < d)
+    {
+        a = d;
+    }
+    if (a < e)
+    {
+        a = e;
+    }
+    if (a < f)
+    {
+        a = f;
+    }
+    if (a < g)
+    {
+        a = g;
+    }
+    cout << "max " << a && b && c && d && e && f && g;
